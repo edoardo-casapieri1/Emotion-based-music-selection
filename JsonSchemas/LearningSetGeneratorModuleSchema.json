@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema della configurazione del modulo contenente tutta la un del generatore di insiemi di learning",
+  "description": "Schema di validazione del file di configurazione JSON del generatore di insiemi di learining module",
+  "type": "object",
+  "properties": {
+    "polling_time": {
+      "description": "Specifica il tempo di polling",
+      "type": "number"
+    },
+    "thread_mode": {
+      "description": "Specifica se eseguire in un thread a parte",
+      "type": "number",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "polling_file": {
+      "description": "Specifica dove trovare il file per fare polling",
+      "type": "string"
+    }
+  },
+  "required": [
+    "polling_time",
+    "thread_mode",
+    "polling_file"
+  ]
+}

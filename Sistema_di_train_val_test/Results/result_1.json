@@ -1,0 +1,6 @@
+{
+    "accuracy": 0.2857142857142857,
+    "mean_absolute_error": 1.0,
+    "R_Squared": -1.75,
+    "f1_score": 0.2857142857142857
+}

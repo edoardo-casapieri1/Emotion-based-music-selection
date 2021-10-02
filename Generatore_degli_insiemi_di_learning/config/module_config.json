@@ -1,0 +1,5 @@
+{
+  "polling_time": 1,
+  "thread_mode": 0,
+  "polling_file": "./Generatore_degli_insiemi_di_learning/polling_file.json"
+}

@@ -1,0 +1,8 @@
+{
+  "max_campioni_mancanti": 3,
+  "numero_canali_elmetto": 22,
+  "numero_impulsi_sessione": 1375,
+  "periodo_pooling": "secondi",
+  "numero_periodi": 0,
+  "numero_sessioni_training": 25
+}

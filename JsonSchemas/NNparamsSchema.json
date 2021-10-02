@@ -1,0 +1,138 @@
+{
+  "title": "Config rete neurale",
+  "description": "Schema di validazione dei parametri di configurazione della rete neurale",
+  "type": "object",
+  "properties": {
+    "id_utente": {
+      "description": "id dell'utente",
+      "type": "integer"
+    },
+    "n_layers":{
+      "description": "Numero di layers della rete, inclusi i 2 livelli di input ed output",
+      "type": "integer",
+      "minimum": 2,
+      "default": 3
+    },
+    "hidden_layer_sizes": {
+      "description": "Numero di layers nascosti della rete",
+      "type": "array",
+      "default": [100],
+      "minItems": 1
+    },
+    "activation": {
+      "description": "Funzione di attivazione per lo strato nascosto",
+      "type": "string",
+      "enum": ["identity", "logistic", "tanh", "relu"],
+      "default": "relu"
+    },
+    "solver": {
+      "description": "Solver per l'ottimizzazione del peso",
+      "type": "string",
+      "enum": ["lbfgs", "sgd", "adam"],
+      "default": "adam"
+    },
+    "alpha": {
+      "description": "parametro di L2 penalty (termine di regolarizzazione) ",
+      "type": "number",
+      "default": 0.0001
+    },
+    "batch_size": {
+      "description": "Dimensione dei minibatch. Se il solver è 'lbfgs', il classificatore non userà i minibatch",
+      "type": "integer",
+      "default": "auto"
+    },
+    "learning_rate": {
+      "description": "Learning rate per l'aggiornamento dei pesi",
+      "type": "string",
+      "enum": ["constant", "invscaling", "adaptive"],
+      "default": "constant"
+    },
+    "learning_rate_init": {
+      "description": "Learning rate iniziale utilizzato. Controlla lo step-size nell'aggiornamento dei pesi",
+      "type": "number",
+      "default": 0.001
+    },
+    "power_t": {
+      "description": "Esponente per l'inverse scaling learning rate. Utilizzato unicamente quando il solver è sgd",
+      "type": "number",
+      "default": 0.5
+    },
+    "max_iter": {
+      "description": "Numero massimo di iterazioni. Per i solver stocastici ('sgd', 'adam'), si noti che questo determina il numero di epoche (quante volte ogni punto dati sarà usato), non il numero di passi del gradiente",
+      "type": "integer",
+      "default": 200
+    },
+    "shuffle": {
+      "description": "Boolean per determinare se mischiare i campioni in ogni iterazione",
+      "type": "boolean",
+      "default": true
+    },
+    "random_state": {
+      "description": "Determina la generazione di numeri casuali per i pesi e l'inizializzazione dei bias, la divisione training-test se viene usato l'arresto anticipato, e il batch sampling quando il solver è uguale a sgd o adam",
+      "type": "integer",
+      "default": null
+    },
+    "tol": {
+      "description": "Tolleranza per l'ottimizzazione. Quando la perdita o il punteggio non migliora di almeno tol per n_iter_no_change iterazioni consecutive, a meno che learning_rate sia impostato su 'adaptive', la convergenza è considerata raggiunta e il training si ferma",
+      "type": "number",
+      "default": 0.018315638888734186
+    },
+    "momentum": {
+      "description": "Momentum per l'aggiornamento della discesa del gradiente",
+      "type": "number",
+      "default": 0.9,
+      "minimum": 0,
+      "maximum": 1
+    },
+    "nesterovs_momentum": {
+      "description": "Se usare il momentum di Nesterov",
+      "type": "boolean",
+      "default": true
+    },
+    "early_stopping": {
+      "description": "Settare a true se si utilizza l'arresto anticipato per terminare l'addestramento quando il validation score non migliora. Se impostato su true, metterà automaticamente da parte il 10% dei dati di training come validazione e terminerà il training quando il validation score non migliorerà di almeno tol per n_iter_no_change epoche consecutive",
+      "type": "boolean",
+      "default": false
+    },
+    "validation_fraction": {
+      "description": "La proporzione di dati di training da mettere da parte come set di validazione per l'arresto anticipato",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.1
+    },
+    "beta_1": {
+      "description": "Tasso di decadimento esponenziale per le stime del primo moment vector in adam",
+      "type": "number",
+      "minimum": 0,
+      "default": 0.9
+    },
+    "beta_2": {
+      "description": "Tasso di decadimento esponenziale per le stime del secondo moment vector in adam",
+      "type": "number",
+      "minimum": 0,
+      "default": 0.999
+    },
+    "epsilon": {
+      "description": "Valore per la stabilità numerica in adam",
+      "type": "number",
+      "default": 0.00033546262790251196
+    },
+    "n_iter_no_change": {
+      "description": "Numero massimo di epoche per non soddisfare il miglioramento tol",
+      "type": "integer",
+      "default": 10
+    },
+    "max_fun": {
+      "description": "Usato solo quando solver='lbfgs'. Numero massimo di chiamate alla loss function. Il solver itera fino alla convergenza (determinata da 'tol'), il numero di iterazioni raggiunge max_iter, o questo numero di chiamate alla loss function. Si noti che il numero di chiamate alla loss function sarà maggiore o uguale al numero di iterazioni per il classificatore MLPC.",
+      "type": "integer",
+      "default": 15000
+    }
+  },
+  "required": ["id_utente"],
+  "dependencies": {
+    "n_layers": ["hidden_layer_sizes"],
+    "hidden_layer_sizes": ["n_layers"]
+  },
+  "additionalProperties": false
+}

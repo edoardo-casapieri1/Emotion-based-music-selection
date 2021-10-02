@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Configurazione del Quality check dei dati",
+  "description": "Schema di validazione del file di configurazione JSON del Quality check dei dati in ingresso al generatore di insiemi di learning",
+  "type": "object",
+  "properties": {
+    "save_path": {
+      "description": "Dove salvare i plot generati",
+      "type": "string"
+    },
+    "save_format": {
+      "description": "In che formato salvare i plot generati",
+      "type": "string"
+    },
+    "input_file_path": {
+      "description": "Specifica dove trovare i dati di ingresso",
+      "type": "string"
+    },
+    "max_number_of_sample": {
+      "description": "Specifica il numero massimo di sample da  visualizzare in un grafico",
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "save_path",
+    "save_format",
+    "input_file_path",
+    "max_number_of_sample"
+  ]
+}

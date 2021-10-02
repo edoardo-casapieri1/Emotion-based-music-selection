@@ -1,0 +1,11 @@
+Input/*
+Data/*
+Output/*
+.DS_Store
+.idea
+**/__pycache__
+.vscode
+*.txt
+plots/*
+Sistema_di_train_val_test/OperativeSets/*
+

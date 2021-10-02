@@ -1,0 +1,411 @@
+{
+  "type": "object",
+  "title": "Sessione",
+  "description": "Oggetto rappresentante la singola sessione di un utente.",
+  "required": [
+    "id_applicazione",
+    "id_sessione",
+    "label",
+    "canale_1",
+    "canale_2",
+    "canale_3",
+    "canale_4",
+    "canale_5",
+    "canale_6",
+    "canale_7",
+    "canale_8",
+    "canale_9",
+    "canale_10",
+    "canale_11",
+    "canale_12",
+    "canale_13",
+    "canale_14",
+    "canale_15",
+    "canale_16",
+    "canale_17",
+    "canale_18",
+    "canale_19",
+    "canale_20",
+    "canale_21",
+    "canale_22"
+  ],
+  "properties": {
+    "id_applicazione": {
+      "type": "integer",
+      "title": "ID applicazione",
+      "default": 3
+    },
+    "id_sessione": {
+      "type": "integer",
+      "title": "ID sessione"
+    },
+    "label": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Emozione",
+      "description": "Emozione associata alla sessione.",
+      "enum": [
+        "excited",
+        "focused",
+        "relaxed",
+        null
+      ]
+    },
+    "canale_1": {
+      "type": "array",
+      "title": "Array impulsi canale 1",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_2": {
+      "type": "array",
+      "title": "Array impulsi canale 2",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_3": {
+      "type": "array",
+      "title": "Array impulsi canale 3",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_4": {
+      "type": "array",
+      "title": "Array impulsi canale 4",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_5": {
+      "type": "array",
+      "title": "Array impulsi canale 5",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_6": {
+      "type": "array",
+      "title": "Array impulsi canale 6",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_7": {
+      "type": "array",
+      "title": "Array impulsi canale 7",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_8": {
+      "type": "array",
+      "title": "Array impulsi canale 8",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_9": {
+      "type": "array",
+      "title": "Array impulsi canale 9",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_10": {
+      "type": "array",
+      "title": "Array impulsi canale 10",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_11": {
+      "type": "array",
+      "title": "Array impulsi canale 11",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_12": {
+      "type": "array",
+      "title": "Array impulsi canale 12",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_13": {
+      "type": "array",
+      "title": "Array impulsi canale 13",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_14": {
+      "type": "array",
+      "title": "Array impulsi canale 14",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_15": {
+      "type": "array",
+      "title": "Array impulsi canale 15",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_16": {
+      "type": "array",
+      "title": "Array impulsi canale 16",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_17": {
+      "type": "array",
+      "title": "Array impulsi canale 17",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_18": {
+      "type": "array",
+      "title": "Array impulsi canale 18",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_19": {
+      "type": "array",
+      "title": "Array impulsi canale 19",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_20": {
+      "type": "array",
+      "title": "Array impulsi canale 20",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_21": {
+      "type": "array",
+      "title": "Array impulsi canale 21",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "canale_22": {
+      "type": "array",
+      "title": "Array impulsi canale 22",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "number"
+          }
+        ]
+      }
+    },
+    "additionalProperties": false
+  },
+  "additionalProperties": false
+}

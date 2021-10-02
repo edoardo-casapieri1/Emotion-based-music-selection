@@ -1,0 +1,12 @@
+{
+  "id_utente": 1,
+  "activation": "relu",
+  "solver": "adam",
+  "learning_rate": "constant",
+  "momentum": 0.7,
+  "early_stopping": true,
+  "validation_fraction": 0.3,
+  "max_iter": 500,
+  "n_layers": 3,
+  "hidden_layer_sizes": [200]
+}

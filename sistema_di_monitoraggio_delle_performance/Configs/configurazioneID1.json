@@ -1,0 +1,5 @@
+{
+  "periodo_monitoraggio": "secondi",
+  "numero_periodi": 30,
+  "threshold": 70
+}

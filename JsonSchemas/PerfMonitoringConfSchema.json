@@ -1,0 +1,38 @@
+{
+  "title": "Config monitoraggio delle performance",
+  "description": "Schema di validazione dei parametri di monitoraggio",
+  "type": "object",
+  "default": {},
+  "required": [
+    "periodo_monitoraggio",
+    "numero_periodi",
+    "threshold"
+  ],
+  "properties": {
+    "periodo_monitoraggio": {
+      "description": "ordine di grandezza temporale del periodo in cui avviene il monitoraggio",
+      "type": "string",
+      "default": "minuti",
+      "enum": [
+        "secondi",
+        "minuti",
+        "ore",
+        "giorni",
+        "settimane"
+      ]
+    },
+    "numero_periodi": {
+      "description": "numero dei periodi di monitoraggio",
+      "type": "integer",
+      "default": 1
+    },
+    "threshold": {
+      "description": "soglia di approvazione",
+      "type": "number",
+      "default": 70,
+      "minimum": 50,
+      "maximum": 100
+    }
+  },
+  "additionalProperties": true
+}

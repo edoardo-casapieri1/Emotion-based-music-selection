@@ -1,0 +1,53 @@
+{
+  "title": "Config Sistema di raccolta degli impulsi",
+  "description": "Schema di validazione dei parametri per la raccolta degli impulsi",
+  "type": "object",
+  "required": [
+    "max_campioni_mancanti",
+    "numero_canali_elmetto",
+    "periodo_pooling",
+    "numero_periodi"
+  ],
+  "properties": {
+    "max_campioni_mancanti": {
+      "description": "numero massimo di campioni che possono mancare per avere un impulso completo",
+      "type": "integer",
+      "minimum": 0
+    },
+    "numero_canali_elmetto": {
+      "description": "numero di canali che indica la quantità di campioni in un impulso completo",
+      "type": "integer",
+      "minimum": 1
+    },
+    "numero_impulsi_sessione": {
+      "description": "numero di impulsi contenuti in una sessione",
+      "type": "integer",
+      "minimum": 1
+    },
+    "periodo_pooling": {
+      "description": "ordine di grandezza temporale del periodo di pooling",
+      "type": "string",
+      "default": "secondi",
+      "enum": [
+        "secondi",
+        "minuti",
+        "ore",
+        "giorni",
+        "settimane"
+      ]
+    },
+    "numero_periodi": {
+      "description": "numero dei periodi di pooling da aspettare prima di riattivare il sistema",
+      "type": "number",
+      "default": 0.1,
+      "minimum": 0
+    },
+    "numero_sessioni_training": {
+      "description": "numero di sessioni che compongono la fase di training (utile per il test delle performance)",
+      "type": "number",
+      "default": 50,
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

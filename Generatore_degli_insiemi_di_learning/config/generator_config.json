@@ -1,0 +1,5 @@
+{
+  "test_size": 0.25,
+  "train_size": 0.75,
+  "input_file_path": "./Sistema_di_elaborazione_degli_impulsi/out/"
+}

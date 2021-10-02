@@ -1,0 +1,27 @@
+{
+  "n_channels": 22,
+  "sampling_frequency": 250.0,
+  "nan_threshold": 30,
+  "bands": {
+    "alpha": {
+      "low": 8.0,
+      "high": 12.0
+    },
+    "beta": {
+      "low": 12.0,
+      "high": 30.0
+    },
+    "gamma": {
+      "low": 30.0,
+      "high": 100.0
+    },
+    "delta": {
+      "low": 0.5,
+      "high": 4.0
+    },
+    "theta": {
+      "low": 4.0,
+      "high": 8.0
+    }
+  }
+}

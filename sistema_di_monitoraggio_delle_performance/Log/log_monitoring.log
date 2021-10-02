@@ -1,0 +1,341 @@
+[INFO] 21/03/2021 10:38:15 : Timestamp fine periodo monitoraggio: 1616319497.132245
+[INFO] 21/03/2021 10:38:15 : Timestamp inizio periodo monitoraggio: 1616319495.132245
+[INFO] 21/03/2021 10:38:17 : MONITORING_LOOP: fine periodo monitoraggio
+[INFO] 21/03/2021 10:38:17 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 10:38:17 : Numero canzoni ascoltate ultimo periodo: 1
+[INFO] 21/03/2021 10:38:17 : Percentuale approvazione: 100
+[INFO] 21/03/2021 10:38:17 : Timestamp fine periodo monitoraggio: 1616319499.889331
+[INFO] 21/03/2021 10:38:17 : Timestamp inizio periodo monitoraggio: 1616319497.132245
+[INFO] 21/03/2021 10:38:19 : MONITORING_LOOP: fine periodo monitoraggio
+[INFO] 21/03/2021 10:38:19 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 10:38:19 : Numero canzoni ascoltate ultimo periodo: 1
+[INFO] 21/03/2021 10:38:19 : Percentuale approvazione: 0
+[INFO] 21/03/2021 10:38:20 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 10:40:17 : Timestamp fine periodo monitoraggio: 1616319619.446239
+[INFO] 21/03/2021 10:40:17 : Timestamp inizio periodo monitoraggio: 1616319617.446239
+[INFO] 21/03/2021 10:40:35 : Timestamp fine periodo monitoraggio: 1616319637.428184
+[INFO] 21/03/2021 10:40:35 : Timestamp inizio periodo monitoraggio: 1616319635.428184
+[INFO] 21/03/2021 10:40:37 : MONITORING_LOOP: fine periodo monitoraggio0
+[INFO] 21/03/2021 10:40:37 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 10:40:37 : Numero canzoni ascoltate ultimo periodo: 1
+[INFO] 21/03/2021 10:40:37 : Percentuale approvazione: 100
+[INFO] 21/03/2021 10:40:37 : Timestamp fine periodo monitoraggio: 1616319639.825625
+[INFO] 21/03/2021 10:40:37 : Timestamp inizio periodo monitoraggio: 1616319637.428184
+[INFO] 21/03/2021 10:40:39 : MONITORING_LOOP: fine periodo monitoraggio1
+[INFO] 21/03/2021 10:40:39 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 10:40:39 : Numero canzoni ascoltate ultimo periodo: 1
+[INFO] 21/03/2021 10:40:39 : Percentuale approvazione: 0
+[INFO] 21/03/2021 10:40:40 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 11:36:53 : Timestamp fine periodo monitoraggio: 1616323033.366334
+[INFO] 21/03/2021 11:36:53 : Timestamp inizio periodo monitoraggio: 1616323013.366334
+[INFO] 21/03/2021 11:37:13 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 11:37:13 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 11:37:13 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 11:37:13 : Percentuale approvazione: 100
+[INFO] 21/03/2021 11:37:16 : Timestamp fine periodo monitoraggio: 1616323056.248826
+[INFO] 21/03/2021 11:37:16 : Timestamp inizio periodo monitoraggio: 1616323033.366334
+[INFO] 21/03/2021 11:37:36 : MONITORING_LOOP: fine periodo monitoraggio 2
+[INFO] 21/03/2021 11:37:36 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 11:37:36 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 11:37:36 : Percentuale approvazione: 75
+[INFO] 21/03/2021 11:37:36 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 11:58:29 : Timestamp fine periodo monitoraggio: 1616324329.413516
+[INFO] 21/03/2021 11:58:29 : Timestamp inizio periodo monitoraggio: 1616324309.413516
+[INFO] 21/03/2021 11:58:49 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 11:58:49 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 11:58:49 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 11:58:49 : Percentuale approvazione: 75
+[INFO] 21/03/2021 11:58:49 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:00:14 : Timestamp fine periodo monitoraggio: 1616324434.111827
+[INFO] 21/03/2021 12:00:14 : Timestamp inizio periodo monitoraggio: 1616324329.413516
+[INFO] 21/03/2021 12:00:34 : MONITORING_LOOP: fine periodo monitoraggio 2
+[INFO] 21/03/2021 12:00:34 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:00:34 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:00:34 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:00:34 : Timestamp fine periodo monitoraggio: 1616324454.646103
+[INFO] 21/03/2021 12:00:34 : Timestamp inizio periodo monitoraggio: 1616324434.111827
+[INFO] 21/03/2021 12:00:54 : MONITORING_LOOP: fine periodo monitoraggio 3
+[INFO] 21/03/2021 12:00:54 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 21/03/2021 12:00:54 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:00:54 : Percentuale approvazione: 50
+[INFO] 21/03/2021 12:00:57 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:03:40 : Timestamp fine periodo monitoraggio: 1616324640.601744
+[INFO] 21/03/2021 12:03:40 : Timestamp inizio periodo monitoraggio: 1616324454.646103
+[INFO] 21/03/2021 12:04:00 : MONITORING_LOOP: fine periodo monitoraggio 4
+[INFO] 21/03/2021 12:04:00 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 12:04:00 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:04:00 : Percentuale approvazione: 75
+[INFO] 21/03/2021 12:04:01 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:21:28 : Timestamp fine periodo monitoraggio: 1616325708.782757
+[INFO] 21/03/2021 12:21:28 : Timestamp inizio periodo monitoraggio: 1616325688.782757
+[INFO] 21/03/2021 12:21:48 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:21:48 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:21:48 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:21:48 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:30:43 : Timestamp fine periodo monitoraggio: 1616326263.966476
+[INFO] 21/03/2021 12:30:43 : Timestamp inizio periodo monitoraggio: 1616326243.966476
+[INFO] 21/03/2021 12:31:04 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:31:04 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 12:31:04 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:31:04 : Percentuale approvazione: 66
+[INFO] 21/03/2021 12:34:14 : Timestamp fine periodo monitoraggio: 1616326474.229572
+[INFO] 21/03/2021 12:34:14 : Timestamp inizio periodo monitoraggio: 1616326454.229572
+[INFO] 21/03/2021 12:34:34 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:34:34 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 21/03/2021 12:34:34 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:34:34 : Percentuale approvazione: 33
+[INFO] 21/03/2021 12:36:21 : Timestamp fine periodo monitoraggio: 1616326601.702504
+[INFO] 21/03/2021 12:36:21 : Timestamp inizio periodo monitoraggio: 1616326581.702504
+[INFO] 21/03/2021 12:36:41 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:36:41 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:36:41 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:36:41 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:36:41 : Timestamp fine periodo monitoraggio: 1616326621.937928
+[INFO] 21/03/2021 12:36:41 : Timestamp inizio periodo monitoraggio: 1616326601.702504
+[INFO] 21/03/2021 12:37:01 : MONITORING_LOOP: fine periodo monitoraggio 2
+[INFO] 21/03/2021 12:37:01 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 12:37:01 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:37:02 : Percentuale approvazione: 66
+[INFO] 21/03/2021 12:37:03 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:39:06 : Timestamp fine periodo monitoraggio: 1616326766.47874
+[INFO] 21/03/2021 12:39:06 : Timestamp inizio periodo monitoraggio: 1616326621.937928
+[INFO] 21/03/2021 12:39:26 : MONITORING_LOOP: fine periodo monitoraggio 3
+[INFO] 21/03/2021 12:39:26 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 21/03/2021 12:39:26 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:39:26 : Percentuale approvazione: 50
+[INFO] 21/03/2021 12:39:28 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:48:15 : Timestamp fine periodo monitoraggio: 1616327315.781805
+[INFO] 21/03/2021 12:48:15 : Timestamp inizio periodo monitoraggio: 1616327295.781805
+[INFO] 21/03/2021 12:48:35 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:48:35 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:48:35 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:48:35 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:48:37 : Timestamp fine periodo monitoraggio: 1616327337.163027
+[INFO] 21/03/2021 12:48:37 : Timestamp inizio periodo monitoraggio: 1616327315.781805
+[INFO] 21/03/2021 12:48:57 : MONITORING_LOOP: fine periodo monitoraggio 2
+[INFO] 21/03/2021 12:48:57 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 12:48:57 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:48:57 : Percentuale approvazione: 75
+[INFO] 21/03/2021 12:49:00 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:55:36 : Timestamp fine periodo monitoraggio: 1616327756.897376
+[INFO] 21/03/2021 12:55:36 : Timestamp inizio periodo monitoraggio: 1616327736.897376
+[INFO] 21/03/2021 12:55:56 : MONITORING_LOOP: fine periodo monitoraggio 1
+[INFO] 21/03/2021 12:55:56 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:55:56 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:55:56 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:55:57 : Timestamp fine periodo monitoraggio: 1616327777.322808
+[INFO] 21/03/2021 12:55:57 : Timestamp inizio periodo monitoraggio: 1616327756.897376
+[INFO] 21/03/2021 12:56:17 : MONITORING_LOOP: fine periodo monitoraggio 2
+[INFO] 21/03/2021 12:56:17 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 21/03/2021 12:56:17 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:56:17 : Percentuale approvazione: 50
+[INFO] 21/03/2021 12:56:17 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:57:13 : Timestamp fine periodo monitoraggio: 1616327853.445032
+[INFO] 21/03/2021 12:57:13 : Timestamp inizio periodo monitoraggio: 1616327777.322808
+[INFO] 21/03/2021 12:57:33 : MONITORING_LOOP: fine periodo monitoraggio 3
+[INFO] 21/03/2021 12:57:33 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 21/03/2021 12:57:33 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 12:57:33 : Percentuale approvazione: 33
+[INFO] 21/03/2021 12:57:34 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 12:58:33 : Timestamp fine periodo monitoraggio: 1616327933.657844
+[INFO] 21/03/2021 12:58:33 : Timestamp inizio periodo monitoraggio: 1616327853.445032
+[INFO] 21/03/2021 12:58:53 : MONITORING_LOOP: fine periodo monitoraggio 4
+[INFO] 21/03/2021 12:58:53 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 12:58:53 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:58:53 : Percentuale approvazione: 100
+[INFO] 21/03/2021 12:58:54 : Timestamp fine periodo monitoraggio: 1616327954.289674
+[INFO] 21/03/2021 12:58:54 : Timestamp inizio periodo monitoraggio: 1616327933.657844
+[INFO] 21/03/2021 12:59:14 : MONITORING_LOOP: fine periodo monitoraggio 5
+[INFO] 21/03/2021 12:59:14 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 12:59:14 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 21/03/2021 12:59:14 : Percentuale approvazione: 75
+[INFO] 21/03/2021 12:59:14 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 14:13:56 : Timestamp fine periodo monitoraggio: 1616332456.608932
+[INFO] 21/03/2021 14:13:56 : Timestamp inizio periodo monitoraggio: 1616332436.608932
+[INFO] 21/03/2021 14:14:16 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 14:14:16 : Numero canzoni ascoltate ultimo periodo: 1
+[INFO] 21/03/2021 14:14:16 : Percentuale approvazione: 100
+[INFO] 21/03/2021 14:14:17 : Timestamp fine periodo monitoraggio: 1616332477.207164
+[INFO] 21/03/2021 14:14:17 : Timestamp inizio periodo monitoraggio: 1616332456.608932
+[INFO] 21/03/2021 14:14:37 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 14:14:37 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 21/03/2021 14:14:37 : Percentuale approvazione: 100
+[INFO] 21/03/2021 14:14:39 : Timestamp fine periodo monitoraggio: 1616332499.775477
+[INFO] 21/03/2021 14:14:39 : Timestamp inizio periodo monitoraggio: 1616332477.207164
+[INFO] 21/03/2021 14:14:59 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 14:14:59 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 21/03/2021 14:14:59 : Percentuale approvazione: 50
+[INFO] 21/03/2021 14:15:00 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 14:17:28 : Timestamp fine periodo monitoraggio: 1616332668.596954
+[INFO] 21/03/2021 14:17:28 : Timestamp inizio periodo monitoraggio: 1616332499.775477
+[INFO] 21/03/2021 14:17:48 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 14:17:48 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 21/03/2021 14:17:48 : Percentuale approvazione: 66
+[INFO] 21/03/2021 14:17:48 : Soglia di approvazione inferiore alla soglia
+[INFO] 21/03/2021 15:01:27 : Timestamp fine periodo monitoraggio: 1616335307.077543
+[INFO] 21/03/2021 15:01:27 : Timestamp inizio periodo monitoraggio: 1616335287.077543
+[INFO] 21/03/2021 15:01:47 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 21/03/2021 15:01:47 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 21/03/2021 15:01:47 : Percentuale approvazione: 100
+[INFO] 21/03/2021 15:01:48 : Timestamp fine periodo monitoraggio: 1616335328.251877
+[INFO] 21/03/2021 15:01:48 : Timestamp inizio periodo monitoraggio: 1616335307.077543
+[INFO] 21/03/2021 15:02:08 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 21/03/2021 15:02:08 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 21/03/2021 15:02:08 : Percentuale approvazione: 50
+[INFO] 21/03/2021 15:02:09 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:01:49 : Timestamp fine periodo monitoraggio: 1617894129.128248
+[INFO] 08/04/2021 17:01:49 : Timestamp inizio periodo monitoraggio: 1617894109.128248
+[INFO] 08/04/2021 17:02:09 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:02:09 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:02:09 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:02:11 : Timestamp fine periodo monitoraggio: 1617894151.26342
+[INFO] 08/04/2021 17:02:11 : Timestamp inizio periodo monitoraggio: 1617894129.128248
+[INFO] 08/04/2021 17:02:31 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:02:31 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:02:31 : Percentuale approvazione: 66
+[INFO] 08/04/2021 17:02:32 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:05:36 : Timestamp fine periodo monitoraggio: 1617894356.765223
+[INFO] 08/04/2021 17:05:36 : Timestamp inizio periodo monitoraggio: 1617894151.26342
+[INFO] 08/04/2021 17:05:57 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:05:57 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:05:57 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:05:58 : Timestamp fine periodo monitoraggio: 1617894378.690971
+[INFO] 08/04/2021 17:05:58 : Timestamp inizio periodo monitoraggio: 1617894356.765223
+[INFO] 08/04/2021 17:06:18 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:06:18 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:06:18 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:06:19 : Timestamp fine periodo monitoraggio: 1617894399.584633
+[INFO] 08/04/2021 17:06:19 : Timestamp inizio periodo monitoraggio: 1617894378.690971
+[INFO] 08/04/2021 17:06:39 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:06:39 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:06:39 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:06:39 : Timestamp fine periodo monitoraggio: 1617894419.888703
+[INFO] 08/04/2021 17:06:39 : Timestamp inizio periodo monitoraggio: 1617894399.584633
+[INFO] 08/04/2021 17:06:59 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:06:59 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:06:59 : Percentuale approvazione: 50
+[INFO] 08/04/2021 17:07:00 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:15:10 : Timestamp fine periodo monitoraggio: 1617894930.834741
+[INFO] 08/04/2021 17:15:10 : Timestamp inizio periodo monitoraggio: 1617894910.834741
+[INFO] 08/04/2021 17:20:48 : Timestamp fine periodo monitoraggio: 1617895268.285822
+[INFO] 08/04/2021 17:20:48 : Timestamp inizio periodo monitoraggio: 1617895248.285822
+[INFO] 08/04/2021 17:24:48 : Timestamp fine periodo monitoraggio: 1617895508.729763
+[INFO] 08/04/2021 17:24:48 : Timestamp inizio periodo monitoraggio: 1617895488.729763
+[INFO] 08/04/2021 17:25:08 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:25:09 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:25:09 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:25:10 : Timestamp fine periodo monitoraggio: 1617895530.01548
+[INFO] 08/04/2021 17:25:10 : Timestamp inizio periodo monitoraggio: 1617895508.729763
+[INFO] 08/04/2021 17:25:30 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:25:30 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:25:30 : Percentuale approvazione: 66
+[INFO] 08/04/2021 17:25:30 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:28:01 : Timestamp fine periodo monitoraggio: 1617895701.939281
+[INFO] 08/04/2021 17:28:01 : Timestamp inizio periodo monitoraggio: 1617895530.01548
+[INFO] 08/04/2021 17:28:21 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:28:21 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:28:21 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:28:22 : Timestamp fine periodo monitoraggio: 1617895722.274981
+[INFO] 08/04/2021 17:28:22 : Timestamp inizio periodo monitoraggio: 1617895701.939281
+[INFO] 08/04/2021 17:28:42 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 08/04/2021 17:28:42 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:28:42 : Percentuale approvazione: 0
+[INFO] 08/04/2021 17:28:43 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:31:23 : Timestamp fine periodo monitoraggio: 1617895903.865396
+[INFO] 08/04/2021 17:31:23 : Timestamp inizio periodo monitoraggio: 1617895722.274981
+[INFO] 08/04/2021 17:31:43 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:31:43 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:31:43 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:31:45 : Timestamp fine periodo monitoraggio: 1617895925.155037
+[INFO] 08/04/2021 17:31:45 : Timestamp inizio periodo monitoraggio: 1617895903.865396
+[INFO] 08/04/2021 17:32:05 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:32:05 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:32:05 : Percentuale approvazione: 66
+[INFO] 08/04/2021 17:32:05 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:34:16 : Timestamp fine periodo monitoraggio: 1617896076.109165
+[INFO] 08/04/2021 17:34:16 : Timestamp inizio periodo monitoraggio: 1617895925.155037
+[INFO] 08/04/2021 17:34:36 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:34:36 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:34:36 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:34:37 : Timestamp fine periodo monitoraggio: 1617896097.391159
+[INFO] 08/04/2021 17:34:37 : Timestamp inizio periodo monitoraggio: 1617896076.109165
+[INFO] 08/04/2021 17:34:57 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 08/04/2021 17:34:57 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:34:57 : Percentuale approvazione: 0
+[INFO] 08/04/2021 17:34:58 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:53:11 : Timestamp fine periodo monitoraggio: 1617897211.797491
+[INFO] 08/04/2021 17:53:11 : Timestamp inizio periodo monitoraggio: 1617897191.797491
+[INFO] 08/04/2021 17:53:31 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:53:31 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:53:31 : Percentuale approvazione: 50
+[INFO] 08/04/2021 17:53:32 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 17:56:09 : Timestamp fine periodo monitoraggio: 1617897389.763616
+[INFO] 08/04/2021 17:56:09 : Timestamp inizio periodo monitoraggio: 1617897211.797491
+[INFO] 08/04/2021 17:56:29 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:56:29 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 17:56:29 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:56:30 : Timestamp fine periodo monitoraggio: 1617897410.935832
+[INFO] 08/04/2021 17:56:30 : Timestamp inizio periodo monitoraggio: 1617897389.763616
+[INFO] 08/04/2021 17:56:50 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 17:56:50 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:56:50 : Percentuale approvazione: 100
+[INFO] 08/04/2021 17:56:51 : Timestamp fine periodo monitoraggio: 1617897431.875194
+[INFO] 08/04/2021 17:56:51 : Timestamp inizio periodo monitoraggio: 1617897410.935832
+[INFO] 08/04/2021 17:57:11 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 17:57:11 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 08/04/2021 17:57:11 : Percentuale approvazione: 50
+[INFO] 08/04/2021 17:57:13 : Soglia di approvazione inferiore alla soglia
+[INFO] 08/04/2021 18:01:52 : Timestamp fine periodo monitoraggio: 1617897742.581948
+[INFO] 08/04/2021 18:01:52 : Timestamp inizio periodo monitoraggio: 1617897712.581948
+[INFO] 08/04/2021 18:02:22 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 18:02:22 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 18:02:22 : Percentuale approvazione: 100
+[INFO] 08/04/2021 18:02:23 : Timestamp fine periodo monitoraggio: 1617897773.643612
+[INFO] 08/04/2021 18:02:23 : Timestamp inizio periodo monitoraggio: 1617897742.581948
+[INFO] 08/04/2021 18:02:53 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 18:02:53 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 08/04/2021 18:02:53 : Percentuale approvazione: 75
+[INFO] 08/04/2021 18:02:53 : Timestamp fine periodo monitoraggio: 1617897803.935904
+[INFO] 08/04/2021 18:02:53 : Timestamp inizio periodo monitoraggio: 1617897773.643612
+[INFO] 08/04/2021 18:03:23 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 08/04/2021 18:03:23 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 18:03:23 : Percentuale approvazione: 100
+[INFO] 08/04/2021 18:03:24 : Timestamp fine periodo monitoraggio: 1617897834.952066
+[INFO] 08/04/2021 18:03:24 : Timestamp inizio periodo monitoraggio: 1617897803.935904
+[INFO] 08/04/2021 18:03:54 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 08/04/2021 18:03:54 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 08/04/2021 18:03:54 : Percentuale approvazione: 66
+[INFO] 08/04/2021 18:03:55 : Soglia di approvazione inferiore alla soglia
+[INFO] 18/04/2021 12:56:07 : Timestamp fine periodo monitoraggio: 1618743397.640359
+[INFO] 18/04/2021 12:56:07 : Timestamp inizio periodo monitoraggio: 1618743367.640359
+[INFO] 18/04/2021 12:56:37 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 18/04/2021 12:56:37 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 18/04/2021 12:56:37 : Percentuale approvazione: 100
+[INFO] 18/04/2021 12:56:38 : Timestamp fine periodo monitoraggio: 1618743428.968363
+[INFO] 18/04/2021 12:56:38 : Timestamp inizio periodo monitoraggio: 1618743397.640359
+[INFO] 18/04/2021 12:57:08 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 18/04/2021 12:57:08 : Numero canzoni ascoltate ultimo periodo: 2
+[INFO] 18/04/2021 12:57:08 : Percentuale approvazione: 100
+[INFO] 18/04/2021 12:57:09 : Timestamp fine periodo monitoraggio: 1618743459.554966
+[INFO] 18/04/2021 12:57:09 : Timestamp inizio periodo monitoraggio: 1618743428.968363
+[INFO] 18/04/2021 12:57:39 : Numero messaggi di disaccordo ultimo periodo: 1
+[INFO] 18/04/2021 12:57:39 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 18/04/2021 12:57:39 : Percentuale approvazione: 66
+[INFO] 18/04/2021 12:57:41 : Soglia di approvazione inferiore alla soglia
+[INFO] 18/04/2021 18:29:46 : Timestamp fine periodo monitoraggio: 1618763416.176103
+[INFO] 18/04/2021 18:29:46 : Timestamp inizio periodo monitoraggio: 1618763386.176103
+[INFO] 18/04/2021 18:30:16 : Numero messaggi di disaccordo ultimo periodo: 0
+[INFO] 18/04/2021 18:30:16 : Numero canzoni ascoltate ultimo periodo: 3
+[INFO] 18/04/2021 18:30:16 : Percentuale approvazione: 100
+[INFO] 18/04/2021 18:30:17 : Timestamp fine periodo monitoraggio: 1618763447.1563
+[INFO] 18/04/2021 18:30:17 : Timestamp inizio periodo monitoraggio: 1618763416.176103
+[INFO] 18/04/2021 18:30:47 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 18/04/2021 18:30:47 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 18/04/2021 18:30:47 : Percentuale approvazione: 50
+[INFO] 18/04/2021 18:30:48 : Soglia di approvazione inferiore alla soglia
+[INFO] 18/04/2021 18:34:00 : Timestamp fine periodo monitoraggio: 1618763670.911773
+[INFO] 18/04/2021 18:34:00 : Timestamp inizio periodo monitoraggio: 1618763447.1563
+[INFO] 18/04/2021 18:34:30 : Numero messaggi di disaccordo ultimo periodo: 2
+[INFO] 18/04/2021 18:34:30 : Numero canzoni ascoltate ultimo periodo: 4
+[INFO] 18/04/2021 18:34:30 : Percentuale approvazione: 50
+[INFO] 18/04/2021 18:34:31 : Soglia di approvazione inferiore alla soglia

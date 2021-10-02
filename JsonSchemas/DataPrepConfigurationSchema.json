@@ -1,0 +1,133 @@
+{
+  "type": "object",
+  "title": "Configurazione sistema di elaborazione dei dati",
+  "description": "Schema di validazione del file JSON di configurazione.",
+  "required": [
+    "n_channels",
+    "sampling_frequency",
+    "nan_threshold",
+    "bands"
+  ],
+  "properties": {
+    "n_channels": {
+      "type": "integer",
+      "title": "Numero di canali elmetto",
+      "description": "Il numero di canali (feature) registrati dall'elmetto.",
+      "default": 22
+    },
+    "sampling_frequency": {
+      "type": "number",
+      "title": "Frequenza di campionamento EEG",
+      "default": 250
+    },
+    "nan_threshold": {
+      "type": "integer",
+      "title": "Massimo numero di impulsi persi nella time series di un canale",
+      "default": 50
+    },
+    "bands": {
+      "type": "object",
+      "title": "Limiti inferiore e superiore delle frequenze nelle bande da analizzare",
+      "required": [
+        "alpha",
+        "beta",
+        "gamma",
+        "delta",
+        "theta"
+      ],
+      "properties": {
+        "alpha": {
+          "type": "object",
+          "required": [
+            "low",
+            "high"
+          ],
+          "properties": {
+            "low": {
+              "type": "number",
+              "default": 0.0
+            },
+            "high": {
+              "type": "number",
+              "default": 0.0
+            }
+          },
+          "additionalProperties": false
+        },
+        "beta": {
+          "type": "object",
+          "required": [
+            "low",
+            "high"
+          ],
+          "properties": {
+            "low": {
+              "type": "number",
+              "default": 0.0
+            },
+            "high": {
+              "type": "number",
+              "default": 0.0
+            }
+          },
+          "additionalProperties": false
+        },
+        "gamma": {
+          "type": "object",
+          "required": [
+            "low",
+            "high"
+          ],
+          "properties": {
+            "low": {
+              "type": "number",
+              "default": 0.0
+            },
+            "high": {
+              "type": "number",
+              "default": 0.0
+            }
+          },
+          "additionalProperties": false
+        },
+        "delta": {
+          "type": "object",
+          "required": [
+            "low",
+            "high"
+          ],
+          "properties": {
+            "low": {
+              "type": "number",
+              "default": 0.0
+            },
+            "high": {
+              "type": "number",
+              "default": 0.0
+            }
+          },
+          "additionalProperties": false
+        },
+        "theta": {
+          "type": "object",
+          "required": [
+            "low",
+            "high"
+          ],
+          "properties": {
+            "low": {
+              "type": "number",
+              "default": 0.0
+            },
+            "high": {
+              "type": "number",
+              "default": 0.0
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

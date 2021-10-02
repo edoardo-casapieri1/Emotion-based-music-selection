@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema della configurazione del generatore di insiemi di learning",
+  "description": "Schema di validazione del file di configurazione JSON del generatore di insiemi di learining",
+  "type": "object",
+  "properties": {
+    "test_size": {
+      "description": "Dimensione dell'insieme di testing",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.25
+    },
+    "train_size": {
+      "description": "Dimensione dell'insieme di Training",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.75
+    },
+    "input_file_path": {
+      "description": "Specifica dove trovare i dati di ingresso",
+      "type": "string"
+    }
+  },
+  "required": [
+    "test_size",
+    "train_size",
+    "input_file_path"
+  ]
+}

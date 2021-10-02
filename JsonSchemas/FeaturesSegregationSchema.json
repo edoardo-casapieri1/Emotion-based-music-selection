@@ -1,0 +1,1001 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema del file contenente le features estratte",
+  "description": "Schema di validazione del file che contiene le features con le relative label per essere scomposte in learning e training set",
+  "type": "object",
+  "properties": {
+    "impulsi": {
+      "description": "Raccolta delle feautures per canali estratte dalla sessione",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "Ogni item rappresenta un canale",
+        "properties": {
+          "label": {
+            "description": "Rappresenta l'emozione riscontrata nel soggetto",
+            "type": "string"
+          },
+          "features": {
+            "description": "",
+            "type": "object",
+            "properties": {
+              "canale1": {
+                "description": "Features del primo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale2": {
+                "description": "Features del secondo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale3": {
+                "description": "Features del terzo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale4": {
+                "description": "Features del quarto canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale5": {
+                "description": "Features del quinto canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale6": {
+                "description": "Features del sesto canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale7": {
+                "description": "Features del settimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale8": {
+                "description": "Features del ottavo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale9": {
+                "description": "Features del nono canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale10": {
+                "description": "Features del decimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale11": {
+                "description": "Features del undicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale12": {
+                "description": "Features del dodicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale13": {
+                "description": "Features del tredicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale14": {
+                "description": "Features del quattordicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale15": {
+                "description": "Features del quindicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale16": {
+                "description": "Features del sedicesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale17": {
+                "description": "Features del diciasettesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale18": {
+                "description": "Features del diciottesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale19": {
+                "description": "Features del diciannovesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale20": {
+                "description": "Features del ventesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale21": {
+                "description": "Features del ventunesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              },
+              "canale22": {
+                "description": "Features del ventiduesimo canale",
+                "type": "object",
+                "properties": {
+                  "alpha": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "beta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "gamma": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "delta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "theta": {
+                    "description": "",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "alpha",
+                  "beta",
+                  "gamma",
+                  "delta",
+                  "theta"
+                ]
+              }
+            },
+            "required": [
+              "canale1",
+              "canale2",
+              "canale3",
+              "canale4",
+              "canale5",
+              "canale6",
+              "canale7",
+              "canale8",
+              "canale9",
+              "canale10",
+              "canale11",
+              "canale12",
+              "canale13",
+              "canale14",
+              "canale15",
+              "canale16",
+              "canale17",
+              "canale18",
+              "canale19",
+              "canale20",
+              "canale21",
+              "canale22"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "impulsi"
+  ]
+}

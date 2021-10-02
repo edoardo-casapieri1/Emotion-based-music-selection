@@ -1,0 +1,16 @@
+{
+    "storico": [
+        {
+            "id_utente": "1",
+            "percentuale": 100
+        },
+        {
+            "id_utente": "1",
+            "percentuale": 50
+        },
+        {
+            "id_utente": "1",
+            "percentuale": 50
+        }
+    ]
+}

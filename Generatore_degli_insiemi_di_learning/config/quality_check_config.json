@@ -1,0 +1,6 @@
+{
+  "save_path": "plots/",
+  "save_format": "svg",
+  "input_file_path": "./Sistema_di_elaborazione_degli_impulsi/out/",
+  "max_number_of_sample": 10
+}
